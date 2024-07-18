@@ -51,15 +51,16 @@ Cross-validation strategy
 # Results
 Findings and performance of the model.
 
-# Best model performance
-Confusion matrix
 
-# Given the dataset, There are no missing values in the dataset
+Given the dataset, There are no missing values in the dataset
 To develop a machine learning model that accurately identifies anomalous (fraudulent) transactions in a dataset of credit card transactions
 Sanple Size: Non-Fraud 99479, Fraud: 521
 Feature Selection: Autoencoders Classification: Random Forest along With PSO
 
 Model with Autoencoders Feature Selection and  Random Forest classification, With PSO gives the close to ideal results. 
+
+# Best model performance
+Confusion matrix
 
 
 
