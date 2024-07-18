@@ -1,5 +1,5 @@
-#Credit Card Fraud Detection
-##Table of Contents
+# Credit Card Fraud Detection
+## Table of Contents
 
 Project Overview
 Dataset
@@ -12,10 +12,10 @@ Results
 Contributing
 License
 
-##Project Overview
+## Project Overview
 This project aims to build a machine learning model to detect fraudulent credit card transactions using a custom dataset. The notebook contains steps for data preprocessing, feature selection, model training, evaluation, and results.
 
-#Dataset
+# Dataset
 There are no missing values in the dataset
 
 10 variables were dropped from the dataset 
