@@ -295,4 +295,43 @@ This comprehensive pipeline covers:
 3. **Model Training**: Using autoencoders for feature extraction, training a Random Forest Classifier, optimizing with PSO.
 4. **Deep Learning**: Implementing a DNN for comparison.
 
-Feel free to adjust the parameters and techniques according to your specific needs.
+Certainly! Let's continue with the remaining sections, including contributions, license, and acknowledgments. 
+
+## Contributions
+
+### Data Preparation and Feature Engineering
+- **Data Analysis**: Performed initial data exploration to understand distributions, missing values, and data types.
+- **Feature Engineering**: Implemented feature encoding, Chi-Square test, correlation analysis, Recursive Feature Elimination (RFE), and LASSO for feature selection.
+
+### Model Implementation
+- **Autoencoder**: Developed an autoencoder model for feature extraction, followed by training a Random Forest Classifier with encoded features.
+- **Optimization**: Applied Particle Swarm Optimization (PSO) to fine-tune hyperparameters of the Random Forest Classifier.
+- **Deep Neural Network**: Built and evaluated a Deep Neural Network (DNN) model for credit card fraud detection, including preprocessing, scaling, and SMOTE oversampling.
+
+## Acknowledgments
+
+- **Dataset**: This project uses the Credit Card Fraud Detection dataset from [Kaggle](https://www.kaggle.com/datasets).
+- **Libraries**: This project relies on several open-source libraries and frameworks, including:
+  - [Scikit-learn](https://scikit-learn.org/) for machine learning algorithms and feature selection.
+  - [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for deep learning models.
+  - [Imbalanced-learn](https://imbalanced-learn.org/) for handling imbalanced datasets with SMOTE.
+  - [PySwarm](https://github.com/ljchang/pyswarm) for Particle Swarm Optimization.
+
+## References
+
+1. **Feature Selection**:
+   - Guyon, I., & Elisseeff, A. (2003). An Introduction to Variable and Feature Selection. *Journal of Machine Learning Research*, 3, 1157–1182.
+
+2. **Autoencoders**:
+   - Hinton, G. E., & Salakhutdinov, R. R. (2006). Reducing the Dimensionality of Data with Neural Networks. *Science*, 313(5786), 504–507.
+
+3. **Deep Learning**:
+   - Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+
+4. **Particle Swarm Optimization**:
+   - Kennedy, J., & Eberhart, R. C. (1995). Particle Swarm Optimization. In *Proceedings of the IEEE International Conference on Neural Networks* (pp. 1942–1948).
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
